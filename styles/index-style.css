@@ -73,4 +73,10 @@ p{
 }
 div{
   background-image: url(../images/robot.png);
+  width:60vw;
+  height:80vh;
+  justify-content: right;
+  align-items:right;
+  display:flex;
+
 }
