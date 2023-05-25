@@ -46,6 +46,7 @@ p{
   position: relative;
   top: -55px;
   left: 0px;
+  white-space: pre-line;
 }
 
 
@@ -71,12 +72,15 @@ p{
 .button:hover{
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.67),0 17px 50px 0 rgba(0, 0, 0, 0.659);
 }
-div{
+.landing-image{
+  width: 30vw;
+  margin-top: -68vh;
+  margin-right: 9.5vw;
   background-image: url(../images/robot.png);
-  width:60vw;
-  height:80vh;
+  background-repeat: no-repeat;
   justify-content: right;
   align-items:right;
   display:flex;
-
+  float: right;
 }
+
