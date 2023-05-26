@@ -1,6 +1,5 @@
 # Robotocs-in-the-Tourism
-## 👨🏻‍💻 Team Members
-
+## 👨🏻‍💻 Team Members:
 ### Dimitur -> Front-end developer 🟨 8a
 ### Yoni -> Designer 🟥 8b
 ### Krisi -> Front-end developer 🟩 8v
