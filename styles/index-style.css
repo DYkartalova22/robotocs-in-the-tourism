@@ -13,7 +13,7 @@ body{
   justify-content: flex-end;
   margin-top: 54px;
   margin-right: 200px;
-}
+ }
 
 .navbar > a {
   text-decoration: none;
@@ -24,9 +24,32 @@ body{
   font-style: normal;
   font-weight: 400;
   font-size: 32.4px;
-  
-  color: #EDD1D1;
+  color: #EDD1D1; 
+  position: relative;
 }
+
+.navbar > a:hover{
+  color:pink;
+}
+
+.navbar > a::after{
+  content:'';
+  height:2px;
+  width: 100%;
+  background-color:aqua;
+  display:block;
+  position: absolute;
+  left:0;
+  bottom: -8px;
+  opacity: 0 ;
+ transition: all 0.2s ;
+}
+
+.navbar > a:hover::after{
+opacity: 1 ;
+}
+
+
 
 p{
   color: white;
@@ -74,7 +97,7 @@ p{
 }
 .landing-image{
   width: 30vw;
-  margin-top: -68vh;
+  margin-top: -60vh;
   margin-right: 9.5vw;
   background-image: url(../images/robot.png);
   background-repeat: no-repeat;
