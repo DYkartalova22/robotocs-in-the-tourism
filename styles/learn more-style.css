@@ -1,8 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("../images/mesh-gradient.png");
     background-size:cover;
+    background-color: black;
 
 }
 .navbar {
@@ -27,3 +27,75 @@ body{
     
     color: #EDD1D1;
   }
+.ellipse_group{
+    position: absolute;
+    width: 91vw;
+    height: 83vh;
+    z-index: -1;
+    
+    filter: blur(140px);
+}
+  .elliplse_14{
+    position: absolute;
+    width: 37vw;
+    height: 56vh;
+    border-radius: 50%;
+    
+    margin-right: 47vw;
+    margin-left: 16vw;
+    margin-top: 10vh;
+    margin-bottom: 40vh;
+    
+    background: #4341b1;
+    filter: blur(125px);
+    transform: rotate(-180deg);
+    
+    }
+  .elliplse_15{
+    position: absolute;
+    width: 30vw;
+    height: 45vh;
+    border-radius: 50%;
+    
+    margin-right: 12vw;
+    margin-left: 58vw;
+    margin-top: 10vh;
+    margin-bottom: 44vh;
+    
+    background: #5f1681;
+    filter: blur(125px);
+    transform: rotate(-180deg);
+    
+    }
+  .elliplse_16{
+    position: absolute;
+    width: 33vw;
+    height: 49vh;
+    border-radius: 50%;
+    
+    margin-right: 52vw;
+    margin-left: 16vw;
+    margin-top: 40vh;
+    margin-bottom: 10vh;
+    
+    background: rgba(224, 45, 77, 1);
+    filter: blur(200px);
+    transform: rotate(-180deg);
+    
+    }
+  .elliplse_17{
+    position: absolute;
+    width: 30vw;
+    height: 31vh;
+    border-radius: 50%;
+    
+    margin-right: 12vw;
+    margin-left: 59vw;
+    margin-top: 46vh;
+    margin-bottom: 7vh;
+    
+    background: rgba(184, 23, 158, 1);
+    filter: blur(200px);
+    transform: rotate(-180deg);
+    
+    }
