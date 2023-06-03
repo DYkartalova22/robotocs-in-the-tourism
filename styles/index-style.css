@@ -1,10 +1,10 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url("../images/mesh-gradient.png");
+  background-image: url("../images/home\ page\ background\ img.jpg");
   background-size:cover;
-
 }
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -42,14 +42,12 @@ body{
   left:0;
   bottom: -8px;
   opacity: 0 ;
- transition: all 0.2s ;
+  transition: all 0.2s ;
 }
 
 .navbar > a:hover::after{
-opacity: 1 ;
+  opacity: 1 ;
 }
-
-
 
 p{
   color: white;
@@ -58,8 +56,7 @@ p{
   font-weight: 400;
   font-size: 80px;
   text-align: left;
-  margin-left: 10%;
-  
+  margin-left: 10%; 
 }
 
 #home-p{
@@ -71,7 +68,6 @@ p{
   left: 0px;
   white-space: pre-line;
 }
-
 
 .button{
   background-color: rgba(217, 217, 217, 1);
@@ -95,9 +91,10 @@ p{
 .button:hover{
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.67),0 17px 50px 0 rgba(0, 0, 0, 0.659);
 }
+
 .landing-image{
   width: 30vw;
-  margin-top: -60vh;
+  margin-top: -80vh;
   margin-right: 9.5vw;
   background-image: url(../images/robot.png);
   background-repeat: no-repeat;

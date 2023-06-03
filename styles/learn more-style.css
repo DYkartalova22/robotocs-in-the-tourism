@@ -1,29 +1,71 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("../images/mesh-gradient.png");
+    background-image: url("../images/learn\ more\ background\ img.jpg");
     background-size:cover;
-
 }
+
 .navbar {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-    justify-content: flex-end;
-    margin-top: 54px;
-    margin-right: 200px;
-  }
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  margin-top: 54px;
+  margin-right: 200px;
+ }
+
+.navbar > a {
+  text-decoration: none;
+  display: flex;
+  margin-left: 57.6px;
   
-  .navbar > a {
-    text-decoration: none;
-    display: flex;
-    margin-left: 57.6px;
-    
-    font-family:'Kokoro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32.4px;
-    
-    color: #EDD1D1;
-  }
+  font-family:'Kokoro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32.4px;
+  color: #EDD1D1; 
+  position: relative;
+}
+
+.navbar > a:hover{
+  color:pink;
+}
+
+.navbar > a::after{
+  content:'';
+  height:2px;
+  width: 100%;
+  background-color:aqua;
+  display:block;
+  position: absolute;
+  left:0;
+  bottom: -8px;
+  opacity: 0 ;
+  transition: all 0.2s ;
+}
+
+.navbar > a:hover::after{
+  opacity: 1 ;
+}
+
+h1{
+  color: white;
+  font-family: 'Kokoro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: left;
+  margin-left: 10%; 
+  top: 10%;
+}
+
+p{
+  color: white;
+  font-family: 'Kokoro';
+  font-size: 20px;
+  position: relative;
+  top: 10%;
+  left: 10%;
+  white-space: pre-line;
+}
