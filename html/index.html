@@ -4,37 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../styles/index-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Sign up page</title>
 </head>
 <body>
     <nav class="navbar">
        
-        <a href="#">Home</a>
-        <a href="./About us.html"> About us</a>
-        <a href="./Contacts.html"> Contacts</a>
+        <a href="./home.html">Home</a>
+        <a href="./AboutUs.html"> About us</a>
+        <a href="./Sources.html"> Sources</a>
     
     </nav>
-    
+    <form id="form-id">
+        <label>Username:</label>
+        <input type="text" placeholder="Username" required >
+        <label>Email:</label>
+        <input type="text" placeholder="Email" required>
+        <label>Password:</label>
+        <input type="password" placeholder="Password" required>
+        <label>Birth date:</label>
+        <input type="date" placeholder="date" required>
+  <div class="submitbutton">
+    <a  href="./home.html" onclick="document.getElementById('form-id').submit();"> submit </a>
+  </div>
 
-    <div class="parent">
-        <p id="heading">Reimagine<br>tourism<br>with...</p>
-
-        <p id="home-p">
-            Tourism is a technology-driven industry. Tourists use booking websites, apps and social 
-             media to learn about a destination and service providers there, plan, book and pay for
-             the trips. Online Travel Agencies communicate with their customers through chatbots. 
-             Hotel guests check-in with the help of kiosks and enter their rooms with magnetic cards
-              or mobile apps. Robots deliver room service, clean floors, prepare drinks in bars and
-               serve dishes in restaurants. Revenue management software supports hotel managers to 
-               forecast room sales and set prices. Technologies permeate every aspect of tourism and
-                hospitality.
-        </p>
+  </form>
     
-        <a href="./Learn more.html" class="button">learn more</a>
-        
-        <img src="../images/robot.png" alt="robot image" class="landing-image">
+  <div class="footerContainer">
+    <div class="socialIcons">
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+      <a href=""><i class="fa-brands fa-twitter"></i></a>
+      <a href=""><i class="fa-brands fa-pinterest"></i></a>
+      <a href=""><i class="fa-brands fa-youtube"></i></a>
     </div>
+      <div class="footerNav">
+        <ul>
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="./AboutUs.html">Our Team</a></li>
+          <li><a href="./Sources.html">Sources</a></li>
+        </ul>
+      </div>
+     
+  </div>
+  <div class="footerBottom">
+    <p id="copyright">Copyright &copy; 2023; Designed by <span class="designer">North Robotics.</span></p>
+  </div>
 
 </body>
 </html>
