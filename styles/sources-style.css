@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("../images/sources\ background\ img.jpg");
+    background-color: #000;
     background-size:cover;
 
 }
@@ -49,6 +49,60 @@ body{
 .navbar > a:hover::after{
   opacity: 1 ;
 }
+.ellipse_group{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  
+  filter: blur(125px);
+  }
+  .elliplse_20{
+  position: absolute;
+  width: 43vw;
+  height: 73vh;
+  border-radius: 40%;
+  
+  margin-right: 56vw;
+  margin-left: 1vw;
+  margin-top: 17vh;
+  margin-bottom: 10vh;
+  
+  background: rgba(225, 86, 86, 1);
+  transform: rotate(-180deg);
+  
+  }
+  .elliplse_21{
+  position: absolute;
+  width: 33vw;
+  height: 57vh;
+  border-radius: 40%;
+  
+  margin-right: 3vw;
+  margin-left: 64vw;
+  margin-top: 3vh;
+  margin-bottom: 40vh;
+  
+  
+  background: rgba(202, 76, 222, 1);
+  transform: rotate(-180deg);
+  }
+  .elliplse_22{
+    position: absolute;
+    width: 32vw;
+    height: 55vh;
+    border-radius: 40%;
+    
+    margin-left: 42vw;
+    margin-right: 27vw;
+    margin-top: 42vh;
+    margin-bottom: 3vh;
+    
+    background: rgba(44, 57, 178, 1);
+
+    filter: blur(120px);
+    transform: rotate(-180deg);
+    }
 
 footer{
   background-color: rgb(110, 107, 107);

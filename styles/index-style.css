@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url("../images/home\ page\ background\ img.jpg");
+  background-color: #000;
   background-size:cover;
 }
 
@@ -48,7 +48,59 @@ body{
 .navbar > a:hover::after{
   opacity: 1 ;
 }
-
+.ellipse_group{
+  position: absolute;
+  width: 85vw;
+  height: 97vh;
+  z-index: -1;
+  
+  filter: blur(100px);
+  }
+  .elliplse_1{
+  position: absolute;
+  width: 53vw;
+  height: 83vh;
+  border-radius: 40%;
+  
+  margin-right: 43vw;
+  margin-left: 4vw;
+  margin-top: 5vh;
+  margin-bottom: 13vh;
+  
+  background: rgba(133, 71, 183, 1);
+  transform: rotate(-180deg);
+  
+  }
+  .elliplse_2{
+  position: absolute;
+  width: 43vw;
+  height: 64vh;
+  border-radius: 40%;
+  
+  margin-right: 10vw;
+  margin-left: 46vw;
+  margin-top: 38vh;
+  margin-bottom: 2vh;
+  
+  
+  background: rgba(67, 56, 192, 1);
+  transform: rotate(-180deg);
+  }
+  .elliplse_3{
+    position: absolute;
+    width: 25vw;
+    height: 37vh;
+    border-radius: 40%;
+    
+    margin-left: 54vw;
+    margin-right: 20vw;
+    margin-top: 7vh;
+    margin-bottom: 56vh;
+    
+    background: rgba(255, 16, 131, 1);
+    filter: blur(120px);
+    transform: rotate(-180deg);
+    }
 p{
   color: white;
   font-family: 'Kokoro';
