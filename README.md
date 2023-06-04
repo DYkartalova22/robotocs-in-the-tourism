@@ -5,5 +5,5 @@
 ### Yoana Georgieva -> Designer 🟥 8b
 ### Kristiyana Hristova -> Front-end developer 🟩 8v
 ### Dariq Kartalova -> SCRUM trainer 🟦 8g
-# About
+# ❓ About
 ## This is a website about different types of robotics in the industry of tourism.
