@@ -1,14 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
     background-size:cover;
     background-color: black;
 
-=======
-    background-image: url("../images/learn\ more\ background\ img.jpg");
-    background-size:cover;
->>>>>>> d13b45ebaf5593d3b180449ca5837771562a2f99
 }
 
 .navbar {
@@ -21,12 +16,7 @@ body{
   margin-right: 200px;
  }
 
-.navbar > a {
-  text-decoration: none;
-  display: flex;
-  margin-left: 57.6px;
-  
-<<<<<<< HEAD
+
   .navbar > a {
     text-decoration: none;
     display: flex;
@@ -36,9 +26,30 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 32.4px;
-    
-    color: #EDD1D1;
-  }
+    color: #EDD1D1; 
+    position: relative;
+  
+}
+.navbar > a:hover{
+  color:pink;
+}
+
+.navbar > a::after{
+  content:'';
+  height:2px;
+  width: 100%;
+  background-color:aqua;
+  display:block;
+  position: absolute;
+  left:0;
+  bottom: -8px;
+  opacity: 0 ;
+  transition: all 0.2s ;
+}
+
+.navbar > a:hover::after{
+  opacity: 1 ;
+}
 .ellipse_group{
     position: absolute;
     width: 91vw;
@@ -111,14 +122,6 @@ body{
     transform: rotate(-180deg);
     
     }
-=======
-  font-family:'Kokoro';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32.4px;
-  color: #EDD1D1; 
-  position: relative;
-}
 
 .navbar > a:hover{
   color:pink;
@@ -246,4 +249,3 @@ footer{
   font-size: 20px;
   text-align: center;
 }
->>>>>>> d13b45ebaf5593d3b180449ca5837771562a2f99

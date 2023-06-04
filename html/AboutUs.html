@@ -9,12 +9,78 @@
     <title>About Us</title>
 </head>
 <body>
+    <!-- Navigation bar -->
     <nav class="navbar">
-       
-        <a href="./home.html">Home</a>
-        <a href="#"> About us</a>
-        <a href="./Sources.html"> Sources</a>
-    </nav>
+      <a href="./index.html">Home</a>
+      <a href="#"> About us</a>
+      <a href="./Sources.html"> Sources</a>
+  </nav>
+  
+  <!-- Background gradient -->
+  <div class="ellipse_group">
+      <div class="elliplse_5"></div>
+      <div class="elliplse_6"></div>
+      <div class="elliplse_7"></div>
+  </div>
+  
+  <!-- Cards with pictures -->
+  <div class="cards-section">
+      <div class="card">
+          <img class="myImg" src="../images/IMG_20230603_165202_546.jpg" alt="Yoana Georgieva is a student in 8th Grade at the Professional High School for Computer Programming and Innovations in the city of Burgas. She is a member of the team, called 'North Robotics' . Her role in it is a designer.">
+          <div><p>Yoana Georgieva</p></div>
+      </div>
+      <div class="card">
+          <img class="myImg" src="../images/IMG_20230603_160334_353.jpg" alt="Kristiyana Hristova is a student in 8th grade at the Professional High School for Computer Programming and Innovations in the city of Burgas. She is a member of the team, called 'North Robotics'. Her role in it is front-end developer.">
+          <div><p>Kristiana Hristova</p></div>
+      </div>
+      <div class="card">
+          <img class="myImg" src="../images/IMG_20230603_184532.jpg" alt="Dariya Kartalova">
+          <div><p>Dariya Kartalova</p></div>
+      </div>
+      <div class="card">
+          <img class="myImg" src="../images/IMG_20230603_184623.jpg" alt="Dimitar Dimitrakov">
+          <div><p>Dimitar Dimitrakov</p></div>
+      </div>
+  </div>
+  
+  <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+  </div>
+
+  <script>
+      // Get all the images
+      var images = document.getElementsByClassName("myImg");
+    
+      // Get the modal
+      var modal = document.getElementById('myModal');
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      var span = document.getElementsByClassName("close")[0];
+    
+      // Loop through each image and attach the click event listener
+      for (var i = 0; i < images.length; i++) {
+        images[i].onclick = function() {
+          modal.style.display = "flex";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+          captionText.style.position = "relative";
+          captionText.style.top = "0px";
+          // captionText.style.marginLeft = "1vw";
+          captionText.style.textAlign = "justify";
+          captionText.style.fontSize = "3rem"
+          captionText.style.textAlign = "left"
+          
+        }
+      }
+    
+      // Close the modal when the user clicks on the close button
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+    </script>
+
 
     <div class="footerContainer">
         <div class="socialIcons">
