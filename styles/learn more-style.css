@@ -235,6 +235,7 @@ p{
   left: 10%;
   white-space: pre-line;
 }
+
 .see_also {
   list-style: none;
   padding-left: 0;
@@ -253,6 +254,7 @@ p{
   color: white;
   white-space: pre-line;
 }
+
 .see_also > li > a:hover {
   text-decoration: underline;
 }

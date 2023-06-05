@@ -188,3 +188,44 @@ footer{
   font-size: 20px;
   text-align: center;
 }
+
+.sources-p{
+  color: white;
+  font-family: 'Kokoro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: left;
+  margin-left: 10%; 
+}
+
+.links {
+  list-style: none;
+  padding-left: 10;
+  columns: 2;
+  color: white;
+  column-gap: 10px;
+  font-size: 25px;
+}
+
+.links a{
+  color: white;
+}
+
+.links > li {
+  margin-bottom: 22px;
+}
+
+.links > li > a {
+  font-size: 35px;
+  position: relative;
+  left: 10%;
+  text-decoration: none;
+  top: 10%;
+  color: white;
+  white-space: pre-line;
+}
+
+.links > li > a:hover {
+  text-decoration: underline;
+}
