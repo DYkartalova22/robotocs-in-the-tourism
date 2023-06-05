@@ -48,6 +48,17 @@ body{
 .navbar > a:hover::after{
   opacity: 1 ;
 }
+.sign_up_image{
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  position: absolute;
+  margin-right: 20vw;
+  margin-left: 68vw;
+  margin-top: 22vh;
+  margin-bottom: 30vh;
+}
 .ellipse_group{
   position: absolute;
   width: 85vw;
