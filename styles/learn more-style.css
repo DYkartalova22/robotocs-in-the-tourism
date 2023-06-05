@@ -225,7 +225,24 @@ h1{
   margin-left: 10%; 
   top: 10%;
 }
-
+.container{
+  gap: 5vw;
+}
+img{
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 11vw;
+  margin-right: 8vw;
+  border-color: #4341b1;
+  border-radius: 10%;
+  border-width: 2.5px;
+  border-style: solid;
+}
+#right{
+  float: right;
+}
 p{
   color: white;
   font-family: 'Kokoro';
@@ -233,7 +250,9 @@ p{
   position: relative;
   top: 10%;
   left: 10%;
+  right: 10%;
   white-space: pre-line;
+  
 }
 .see_also {
   list-style: none;
