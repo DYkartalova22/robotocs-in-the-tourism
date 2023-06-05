@@ -8,5 +8,5 @@
 # ❓ About
 ## This is a website about different types of robotics in the industry of tourism.
 # 📰 Documentation and presentation
-##[Documentation](https://github.com/DYkartalova22/robotocs-in-the-tourism/files/11654976/Documentation.docx)
-##[Presentation](https://github.com/DYkartalova22/robotocs-in-the-tourism/files/11657059/Presentation.pptx)
+[Documentation](https://github.com/DYkartalova22/robotocs-in-the-tourism/files/11654976/Documentation.docx)
+[Presentation](https://github.com/DYkartalova22/robotocs-in-the-tourism/files/11657059/Presentation.pptx)
