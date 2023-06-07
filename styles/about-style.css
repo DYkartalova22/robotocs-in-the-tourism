@@ -18,6 +18,14 @@ body{
   margin-right: 200px;
  }
 
+ #logo
+ {
+ width: 65px;
+ height:80px;
+ position: absolute;
+ top: 8px;
+ left: 16px
+ }
 
   .navbar > a {
     text-decoration: none;
@@ -40,7 +48,7 @@ body{
   content:'';
   height:2px;
   width: 100%;
-  background-color:aqua;
+  background-color:rgb(245, 111, 156);
   display:block;
   position: absolute;
   left:0;
@@ -238,12 +246,17 @@ transform: rotate(-180deg);
   
   .footerContainer{
     width: 100%;
-    padding: 70px 30px 20px;
+    position: relative;
+    bottom:0;
+    left: 0;
+    right: 0;
   }
   
   .socialIcons{
-    display: flex;
+    width: 100%;
+    display: inline-flex;
     justify-content: center;
+    align-items: center;
   }
   
   .socialIcons a{
@@ -252,6 +265,11 @@ transform: rotate(-180deg);
     background-color: white;
     margin: 10px;
     border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .socialIcons a i{
