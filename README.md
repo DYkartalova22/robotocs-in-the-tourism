@@ -1,5 +1,6 @@
 # Robotocs-in-the-Tourism
-![image](https://github.com/DYkartalova22/robotocs-in-the-tourism/assets/132449223/095d5b4d-f81e-4c16-b8ea-52001a976ba1)
+![logo_2-removebg-preview (1)](https://github.com/DYkartalova22/robotocs-in-the-tourism/assets/132449223/b31312cb-e740-43a6-b4ca-d531f4227a56)
+
 ## 👨🏻‍💻 Team Members:
 ### Dimitar Dimitrakov -> Front-end developer 🟨 8a
 ### Yoana Georgieva -> Designer 🟥 8b
