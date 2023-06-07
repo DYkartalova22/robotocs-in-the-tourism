@@ -1,8 +1,7 @@
 
 # Team North Robotics
-<p align = "center">
-    <img src="![logo_2-removebg-preview (1)](https://github.com/DYkartalova22/robotocs-in-the-tourism/assets/132449223/b31312cb-e740-43a6-b4ca-d531f4227a56)"/>
-</p>
+![logo_2-removebg-preview](https://github.com/DYkartalova22/robotocs-in-the-tourism/assets/132449223/67a9d479-c904-4871-b878-a70533e79d4b)
+
 
 ## 💻 About
 <p>This is a website about different types of robotics in the industry of tourism.</p>
