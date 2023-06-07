@@ -12,7 +12,7 @@
 [Documentation](https://github.com/DYkartalova22/robotocs-in-the-tourism/files/11654976/Documentation.docx)
 [Presentation](https://github.com/DYkartalova22/robotocs-in-the-tourism/files/11657059/Presentation.pptx)
 # Technologies we used: 
-    <p align="left"> 
+       <p align="left"> 
         <a href="https://visualstudio.microsoft.com/"><img src="https://img.icons8.com/fluency/48/000000/visual-studio.png" alt="Visual Studio 2019"/></a>
         <a href="https://code.visualstudio.com/"><img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="Visual Studio Code"/></a>
         <a href="https://www.figma.com/"><img src="https://img.icons8.com/color/48/000000/figma--v1.png"/></a>
