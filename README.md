@@ -19,9 +19,9 @@
 
 ## 📄 Documents
 ### Documentation
-  [Documentation.docx](https://github.com/DYkartalova22/robotocs-in-the-tourism/files/11679453/Documentation.docx)
+  [Documentation](https://github.com/DYkartalova22/robotocs-in-the-tourism/files/11679453/Documentation.docx)
 ### Presentation
-[Presentation.pptx](https://github.com/DYkartalova22/robotocs-in-the-tourism/files/11679456/Presentation.pptx)
+[Presentation](https://github.com/DYkartalova22/robotocs-in-the-tourism/files/11679456/Presentation.pptx)
 
 ## Our Team
 - <a href = "https://github.com/DPDimitrakov22"> Dimitar Dimitrakov </a> -> Front-end developer 🟨 8a
