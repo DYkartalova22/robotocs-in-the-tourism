@@ -12,7 +12,12 @@
 [Documentation](https://github.com/DYkartalova22/robotocs-in-the-tourism/files/11654976/Documentation.docx)
 [Presentation](https://github.com/DYkartalova22/robotocs-in-the-tourism/files/11657059/Presentation.pptx)
 # Technologies we used: 
-![unnamed](https://github.com/DYkartalova22/robotocs-in-the-tourism/assets/132449223/b842d9ef-b0f6-4e73-9524-693d8f69b043)
-![download](https://github.com/DYkartalova22/robotocs-in-the-tourism/assets/132449223/dd344693-8041-4c39-9a62-ab0a9650b9b9)
-![download](https://github.com/DYkartalova22/robotocs-in-the-tourism/assets/132449223/f62862b4-fd3e-43be-a860-cc1d353bf8c0)
-![download](https://github.com/DYkartalova22/robotocs-in-the-tourism/assets/132449223/7f86c2fa-24b9-4fcd-82e8-4ff02f68f731)
+    <p align="left"> 
+        <a href="https://visualstudio.microsoft.com/"><img src="https://img.icons8.com/fluency/48/000000/visual-studio.png" alt="Visual Studio 2019"/></a>
+        <a href="https://code.visualstudio.com/"><img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="Visual Studio Code"/></a>
+        <a href="https://www.figma.com/"><img src="https://img.icons8.com/color/48/000000/figma--v1.png"/></a>
+          <a href="https://www.microsoft.com/en-ww/microsoft-365/word"><img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" alt="MS Word logo" width=48px /></a>
+          <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint"><img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" alt="MS PowerPoint logo" width=48px /></a>
+          <a href="https://github.com/"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width=48px/></a>
+          <a href="https://discord.com/"> <img src="https://www.freepnglogos.com/uploads/discord-logo-png/concours-discord-cartes-voeux-fortnite-france-6.png" alt="Discord Logo" width=48px/></a>
+        </p> 
