@@ -25,7 +25,7 @@
 
 ## Our Team
 - <a href = "https://github.com/DPDimitrakov22"> Dimitar Dimitrakov </a> -> Front-end developer 🟨 8a
-- <a href = "https://github.com/YTGeorgieva22"> Yoana Georgieva </a> Designer 🟥 8b
-- <a href = "https://github.com/KIHristova22"> Kristiyana Hristova </a> Front-end developer 🟩 8v
-- <a href = "https://github.com/DYKartalova22"> Daria Kartalova </a> SCRUM trainer 🟦 8g
+- <a href = "https://github.com/YTGeorgieva22"> Yoana Georgieva </a> -> Designer 🟥 8b
+- <a href = "https://github.com/KIHristova22"> Kristiyana Hristova </a> -> Front-end developer 🟩 8v
+- <a href = "https://github.com/DYKartalova22"> Daria Kartalova </a> -> SCRUM trainer 🟦 8g
 
