@@ -59,6 +59,11 @@ body{
   margin-top: 22vh;
   margin-bottom: 30vh;
 }
+#form-id input[type="text"],
+#form-id input[type="password"],
+#form-id input[type="date"] {
+  color: white;
+ }
 .ellipse_group{
   position: absolute;
   width: 85vw;
@@ -154,14 +159,16 @@ p{
 
 .landing-image{
   width: 30vw;
-  margin-top: -70vh;
+  margin-top: 8vh;
+  margin-left: 60vw;
   margin-right: 9.5vw;
+  z-index: 1;
   background-image: url(../images/robot.png);
   background-repeat: no-repeat;
   justify-content: right;
   display:flex;
   float: right;
-  position: relative;
+  position: absolute;
 }
 
 #heading {
